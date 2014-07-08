@@ -23,4 +23,4 @@ git contrib.rb --csv # generate CONTRIBUTORS.csv
 ```
 
 ## Examples
-See [CONTRIBUTORS.md]("./CONTRIBUTORS.md"), [CONTRIBUTORS.csv]("./CONTRIBUTORS.csv"), and plain old [CONTRIBUTORS]("./CONTRIBUTORS")
+See [CONTRIBUTORS.md](CONTRIBUTORS.md), [CONTRIBUTORS.csv](CONTRIBUTORS.csv), and plain old [CONTRIBUTORS](CONTRIBUTORS)
