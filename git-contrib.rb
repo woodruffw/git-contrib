@@ -5,7 +5,8 @@ require "optparse"
 #  git-contrib.rb
 #  Author: William Woodruff
 #  ------------------------
-#  Generates a CONTRIBUTORS file for a git repository
+#  Generates CONTRIBUTORS files for a git repositories
+#  Capable of Markdown, CSV, and plain-text.
 #  ------------------------
 #  This program is licensed by William Woodruff under the MIT License.
 #  http://opensource.org/licenses/MIT
