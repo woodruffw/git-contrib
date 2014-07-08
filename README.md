@@ -21,3 +21,6 @@ git contrib.rb # generate plain-text CONTRIBUTORS
 git contrib.rb --markdown # generate CONTRIBUTORS.md
 git contrib.rb --csv # generate CONTRIBUTORS.csv
 ```
+
+## Examples
+See [CONTRIBUTORS.md]("./CONTRIBUTORS.md"), [CONTRIBUTORS.csv]("./CONTRIBUTORS.csv"), and plain old [CONTRIBUTORS]("./CONTRIBUTORS")
