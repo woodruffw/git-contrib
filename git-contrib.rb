@@ -55,24 +55,11 @@ if options[:markdown]
 		log.each_line do |line|
 			elements = line.split(' ')
 			if elements.length == 4
-				contribFile.write(elements[0])
-				contribFile.write('|')
-				contribFile.write(elements[1])
-				contribFile.write(' ')
-				contribFile.write(elements[2])
-				contribFile.write('|')
-				contribFile.write(elements[3])
-				contribFile.write("\n")
+				contribFile.write("#{elements[0]} | #{elements[1]} #{elements[2]} | #{elements[3]}\n")
 			else
-				contribFile.write(elements[0])
-				contribFile.write('|')
-				contribFile.write(elements[1])
-				contribFile.write('|')
-				contribFile.write(elements[2])
-				contribFile.write("\n")
+				contribFile.write("#{elements[0]} | #{elements[1]} | #{elements[2]}\n")
 			end
 		end
-		contribFile.write("\n")
 	end
 elsif options[:csv]
 	File.open("CONTRIBUTORS.csv", "w") do |contribFile|
@@ -81,24 +68,11 @@ elsif options[:csv]
 		log.each_line do |line|
 			elements = line.split(' ')
 			if elements.length == 4
-				contribFile.write(elements[0])
-				contribFile.write(',')
-				contribFile.write(elements[1])
-				contribFile.write(' ')
-				contribFile.write(elements[2])
-				contribFile.write(',')
-				contribFile.write(elements[3])
-				contribFile.write("\n")
+				contribFile.write("#{elements[0]},#{elements[1]} #{elements[2]},#{elements[3]}\n")
 			else
-				contribFile.write(elements[0])
-				contribFile.write(',')
-				contribFile.write(elements[1])
-				contribFile.write(',')
-				contribFile.write(elements[2])
-				contribFile.write("\n")
+				contribFile.write("#{elements[0]},#{elements[1]},#{elements[2]}\n")
 			end
 		end
-		contribFile.write("\n")
 	end
 else
 	File.open("CONTRIBUTORS", "w") do |contribFile|
