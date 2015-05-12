@@ -1,6 +1,12 @@
 git-contrib
 ==========
 
+# MIGRATED
+
+I will no longer be making changes to this repository. The current code has
+been migrated to my [snippets](http://woodruffw.us/snippets.html) and the
+[corresponding repo](https://github.com/woodruffw/snippets).
+
 `git-contrib` is a neat little script for creating CONTRIBUTORS files for git repositories.
 
 It can currently generate Markdown (GitHub-flavored), CSV, and plain text files using git's logging facilities.
